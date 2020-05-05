@@ -1,0 +1,29 @@
+#fonzalik {background-image: url(Fon/fonzalik.jpg);background-size: cover;}
+
+#fonklimat {background-image: url(Fon/fonklimat.jpg);background-size: cover;}
+
+#fonnaselennia {background-image: url(Fon/fonnaselennia.jpg);background-size: cover;}
+
+#fonnazva {background-image: url(Fon/fonnazva.jpg);background-size: cover;}
+
+#fonsimvolika {background-image: url(Fon/fonsimvolika.jpg);background-size: cover;}
+
+#fontransport {background-image: url(Fon/fontrasport.jpg);background-size: cover;}
+
+#fonanketa {background-image: url(Fon/fonanketa.jpg);background-size: cover; }
+
+#fongalery {background-color: url(Fon/fongalery.jpg);background-size: cover; }
+
+
+
+#fonanketa2 {
+	background-color:grey; 
+	width:75%; 
+	margin: auto; 
+	color:white; 
+	border-radius:10px;
+	padding:25px;
+	position: absolute;
+	left: 270px;
+	top: 100px;}
+	
