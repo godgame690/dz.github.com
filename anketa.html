@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>
+Анкета
+</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+</head>
+<body >
+
+
+<H1 align="center">Анкета</H1><br>
+<form>
+<fieldset>
+<legend>Використання Інтернету батьками та учнями</legend>
+1. Як давно ви користуетеся интернетом?
+<br>
+    <select name="misto" >
+        <option value="1m"> 1-10 років</option>
+        <option value="2m"> 10-20 років</option>
+        <option value="3m"> 20-50 років</option>
+        <option value="4m"> 50-100 років</option>
+    </select>
+<br><br> 
+2. Введіть Стать.
+<br>
+<input type="radio" name="pol" checked value="Ch">  Чол. 
+<input type="radio" name="pol" value="J">  Жін.
+<br><br>
+3. Для чого ви найчастіше використовуєте інтернет?
+<br>
+    <select name="doroga" >
+        <option value="1d">Для зв'язку з рідними(близькими,знайомими)</option>
+        <option value="2d">Для пошуку інформації</option>
+        <option value="3d">Для новин</option>
+        <option value="4d">Для ігор</option>
+	</select>
+<br><br>
+4. На який сайт ви останній раз заходили
+(Сслилка на сайт)
+<br>
+<input type="text" name="kino" size="40" maxlength ="50">
+<br><br>
+5. Які жанри фільмів вам найбільше подобаються? 
+<br>
+<select name="chas" multiple size="5">
+<option value="cat1">Бойовик</option>
+<option value="cat2">Фантастика</option>
+<option value="cat3">Наукова фантастика</option>
+<option value="cat4">Комедія</option>
+<option value="cat5">Інші</option>
+</select>
+<br><br>
+6. Що вам найбільше подобається в інтернеті?
+<br>
+<input type="checkbox" name="hobby" checked>Перегляд відео, фільмів, серіалів
+<br>
+<input type="checkbox" name="hobby" >Ігри
+<br>
+<input type="checkbox" name="hobby" >Пошук інформації
+<br>
+<input type="checkbox" name="hobby" >Інші
+<br><br>
+<button onclick="alert('Дякуємо за заповнення анкети!')">Завантажити</button>
+<br><br>
+</div>
+
+</body>
+</html>
